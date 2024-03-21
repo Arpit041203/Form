@@ -49,6 +49,10 @@ const FormikValidation = () => {
            <Field name="email" type="email" />
            {errors.email && touched.email ? <div style={{color:'red'}}>{errors.email}</div> : null}
            <br></br>
+           E-mail:-
+           <Field name="email" type="email" />
+           {errors.email && touched.email ? <div style={{color:'red'}}>{errors.email}</div> : null}
+           <br></br>
            <button type="submit">Submit</button>
          </Form>
        )}
